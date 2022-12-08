@@ -28,6 +28,8 @@ To Do:
 
 Customize start menu remove tictok
 
+Disable Microsoft Phone Link
+reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\System /v EnableMmx /t reg_dword /d 0x00000000
 
 
 
