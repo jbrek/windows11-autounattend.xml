@@ -34,6 +34,11 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\System /v EnableMmx /t reg_dwor
 Trying this
 Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage
 
+more to add
+
+Remove-Item $env:USERPROFILE\AppData\Local\Microsoft\WindowsApps\python*.exe
+
+
 
 
 
